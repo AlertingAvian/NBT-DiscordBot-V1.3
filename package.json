@@ -1,11 +1,16 @@
 {
   "name": "Discord-Bot-Maker-Bot",
-  "author": "Robert Borghese",
+  "scripts": {
+      "start": "node bot.js"
+    },
+  "author": "Patrick M",
   "main": "bot.js",
   "version": "1.3.0-beta.5",
   "dependencies": {
     "discord.js": "^11.3.0",
     "fstorm": "^0.1.3",
+    "express": "^4.16.3",
+    "express-glitch-keepalive": "^0.2.0",
     "jimp": "^0.2.28"
   }
 }
